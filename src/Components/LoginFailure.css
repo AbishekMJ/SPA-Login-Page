@@ -1,0 +1,46 @@
+.body2 {
+  font-family: 'Arial', sans-serif;
+  background-color: lightgoldenrodyellow; /* Set a single background color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* src/styles/LoginFailure.css */
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:lightgreen;/* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Max width for better responsiveness */
+  padding: 20px;
+  }
+  
+  .failure-container h1 {
+    color: #dc3545; /* Red color for error messages */
+  }
+  
+  .failure-container h3 {
+    color: #dc3545; /* Red color for error messages */
+  }
+  
+  .failure-container button {
+    width: 200px;
+    margin: 10px;
+    background-color: #007bff; /* Primary blue */
+  }
+  
+  .failure-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
