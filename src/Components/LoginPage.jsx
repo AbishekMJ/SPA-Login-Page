@@ -11,7 +11,7 @@ const LoginPage = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (username === 'user' && password === 'pass') {
+    if (username === 'Abishek' && password === '1234') {
       setLoginMessage('Login successful!'); // Set the success message
       setTimeout(() => {
         navigate('/employee-form'); // Redirect after 1 second
