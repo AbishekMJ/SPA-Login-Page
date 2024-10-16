@@ -17,7 +17,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   width: 90%; /* Reduce width to allow margins */
-  max-width: 700px; /* Max width for better responsiveness */
+  max-width: 900px; /* Max width for better responsiveness */
   padding: 20px;
   margin: 0 10px; /* Add margins for space on small screens */
 }
