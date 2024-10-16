@@ -1,94 +1,69 @@
 .body1 {
-  font-family: 'Arial', sans-serif;
-  background-color: rgb(192, 255, 195);
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(192, 255, 195);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  height: 100vh;
-}
+    height: 100vh;
+  }
 
 .container1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: lightgrey; /* White background */
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  width: 90%; /* Set to 90% for mobile screens */
-  max-width: 600px; /* Max width for better responsiveness */
-  padding: 20px;
-}
-
-/* Styling for headings */
-h1 {
-  color: black;
-  margin-bottom: 20px;
-}
-
-/* Image styling */
-img {
-  max-width: 100px;
-  margin-bottom: 20px;
-}
-
-/* Input and select elements styling */
-input, select {
-  width: 95%;
-  padding: 12px;
-  margin: 10px 0;
-  border: 2px solid #007bff; /* Blue border */
-  border-radius: 5px;
-  transition: border-color 0.3s;
-}
-
-/* Focus state for input and select */
-input:focus, select:focus {
-  border-color: #0056b3; /* Darker blue on focus */
-}
-
-/* Button styling */
-button {
-  width: 100%;
-  padding: 12px;
-  margin: 5px 0;
-  background-color: #007bff; /* Primary blue */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-/* Default button styling */
-button:default {
-  background-color: #0056b3; /* Darker blue on hover */
-}
-
-/* Success message styling */
-.success-message {
-  color: #28a745; /* Green color for success messages */
-  margin: 10px 0;
-}
-
-/* Media query for small devices (mobile) */
-@media (max-width: 600px) {
-  .container1 {
-    width: 100%; /* Full width for mobile devices */
-    padding: 15px; /* Reduced padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgrey;/* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Max width for better responsiveness */
+    padding: 20px;
   }
-
-  input, select, button {
-    width: 100%; /* Full width for form elements */
+  
+  h1 {
+    color:black;
+    margin-bottom: 20px;
   }
-}
-
-/* Media query for larger screens (laptops) */
-@media (min-width: 601px) {
-  .container1 {
-    width: 90%; /* Slightly reduced width on larger screens */
+  
+  img {
+    max-width: 100px;
+    margin-bottom: 20px;
   }
-}
+  
+  input, select {
+    width: 95%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus, select:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    background-color: #007bff; /* Primary blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:default{
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .success-message {
+    color: #28a745; /* Green color for success messages */
+    margin: 10px 0;
+  }
+  
